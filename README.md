@@ -16,6 +16,16 @@ Running project Laravel GitHub (anggota):
 - composer install
 - cp .env.example .env
 - php artisan key:generate
+[
+	jika menggunkan database:
+	- edit env bagian koneksi database
+	- php artisan migrate
+
+	jika menggunakan vite dan tailwindcss:
+	- npm install
+	- npm run dev
+	
+]
 - php artisan serve (berhasil ? lanjut : rollback)
 - {lanjut: ngoding}
 - pindahkan card tugas ke bagian kolom do
@@ -27,6 +37,14 @@ Running project Laravel GitHub (anggota):
 - git commit -m "membuat halaman about"
 - git push -u origin about-page
 - pindah ke repo github dan lakukan pull request
+
+
+Ketua:
+- melakukan review kode yang sudah dipush
+- approve jika sudah benar
+
+Notes:
+- setiap kali mau ngerjain fitur baru diwajibkan buat branch baru
 
 
 Ketua:
